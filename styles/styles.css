@@ -146,9 +146,11 @@ header ul li a:hover::after{
     min-height: 90vh;
     width: 100%;
     flex-direction: column;
-    background-image: linear-gradient(to left, #1515157e, #1515157e ) ,url('../images/IMG-20220608-WA0018.jpg');
-    background-position: top;
-    background-size: cover;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background-image: linear-gradient(to right, #ffffff00, #a68b5434,#A68B54 ,  #A68B54  ) ,url('../images/IMG-20230509-WA0002.jpg');
+    background-position: left;
+    background-size: contain;
     background-repeat: no-repeat;
 
 }
@@ -158,7 +160,8 @@ header ul li a:hover::after{
     line-height: 0rem;
     font-weight: 900;
     text-transform: capitalize;
-    color: #151515;
+    font-family: calibri;
+    color:#f2f4cd;
 
 }
 
@@ -168,6 +171,7 @@ header ul li a:hover::after{
     font-family: calibri;
     text-transform: capitalize;
     color: #151515;
+    align-self: center;
 }
 
 .hero-layer-text-p{
