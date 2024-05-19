@@ -1,0 +1,157 @@
+/* primary color */
+/*
+black: #151515 /30%/
+brown: #A68B54 /10%/
+gold: #ffd700  /10%/
+milk-white: #f2f4cd /60%/
+*/
+
+
+/* DEFAULT STYLING FOR THE PAGE */
+
+
+:root{
+    background-color: #A68B54;
+    color: #f2f4cd;
+    font-family: Candara light;
+ 
+}
+
+a{
+    text-decoration: none;
+    color: #f2f4cd;
+}
+
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-color-gold{
+    color: #ffd700;
+}
+
+:hover{
+    transition: all .3s ease 0s;
+}
+
+
+
+
+/* HEADER */
+
+.header{
+    background-color: #151515;
+    min-height: 10vh;
+    justify-content: space-around;
+}
+
+
+
+
+/* LOGO */
+
+.logo{
+    margin: .5rem 0rem;
+}
+
+.logo img{
+    width: fit-content;
+    height: 9vh;
+}
+
+
+
+/* NAVIAGTION */
+
+li{
+    list-style-type: none;
+    padding: .5rem 4rem;
+}
+
+li a{
+    color: #f2f4cd;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+li a:hover{
+    transition: all .5s ease 0s;
+    color:#A68B54;
+}
+
+
+/* DONATE */
+
+.donate{
+    background-color: #A68B54;
+    padding: .5rem 1.5rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.donate:hover{
+    background-color: #a68b54d8;
+}
+
+
+
+
+/* FIXED SOCIAL */
+
+.fixed-socials{
+    height:25vh;
+    width: 5vw;
+    position: fixed;
+    top:60vh ;
+    left:0;
+    background-color: #151515;
+    flex-direction: column;
+    gap: 1rem;
+    z-index: 1;
+}
+
+
+/* HERO SECTION */
+
+.hero{
+    min-height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    /* background-image: linear-gradient(to left, #1515157e, #1515157e ) ,url('../images/IMG-20220608-WA0018.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+.hero-header{
+    font-size: 4rem;
+    line-height: 0rem;
+    font-weight: 900;
+    text-transform: capitalize;
+
+}
+
+.hero-layer-text{
+    font-size: 2rem;
+    line-height: 0rem;
+    font-family: calibri;
+    text-transform: capitalize;
+}
+
+.hero-layer-text-p{
+    color: rgb(105, 80, 16);
+    
+}
