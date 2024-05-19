@@ -41,7 +41,7 @@ body{
 }
 
 :hover{
-    transition: all .3s ease 0s;
+    transition: all .5s ease 0s;
 }
 
 
@@ -54,6 +54,7 @@ body{
     min-height: 10vh;
     justify-content: space-around;
 }
+
 
 
 
@@ -80,15 +81,30 @@ li{
 
 li a{
     color: #f2f4cd;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    font-family: calibri;
     text-decoration: none;
     text-transform: capitalize;
+    position: relative;
+    padding: .5rem 0rem;
 }
 
-li a:hover{
-    transition: all .5s ease 0s;
-    color:#A68B54;
+
+header ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color:#f2f4cd;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition:all  0.5s ;
+    
+}
+
+header ul li a:hover::after{
+    width: 100%;
 }
 
 
@@ -130,10 +146,10 @@ li a:hover{
     min-height: 90vh;
     width: 100%;
     flex-direction: column;
-    /* background-image: linear-gradient(to left, #1515157e, #1515157e ) ,url('../images/IMG-20220608-WA0018.jpg');
+    background-image: linear-gradient(to left, #1515157e, #1515157e ) ,url('../images/IMG-20220608-WA0018.jpg');
     background-position: top;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
 
 }
 
