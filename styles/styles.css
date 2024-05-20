@@ -55,7 +55,10 @@ body{
     justify-content: space-around;
 }
 
-
+#close-hamburger, #hamburger{
+    display: none;
+    height: 5vh;
+}
 
 
 
@@ -129,7 +132,7 @@ header ul li a:hover::after{
 
 .fixed-socials{
     height:25vh;
-    width: 5vw;
+    min-width: 5vw;
     position: fixed;
     top:60vh ;
     left:0;
@@ -185,4 +188,35 @@ header ul li a:hover::after{
 .services{
     min-height: 50vh;
     width: 100%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+
+    .header{
+        justify-content: space-around;
+    }
+
+    #navigations{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 20%;
+        background-color: #A68B54;
+    }
+
+
+    #hamburger{
+        display: block;
+    }
+
+    .fixed-socials{
+        width: 10vw;
+    }
 }
