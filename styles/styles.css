@@ -276,9 +276,9 @@ header ul li a:hover::after{
 
     .donate{
         background-color: #f2f4cd;
-        padding: .5rem 1.5rem;
+        padding: .5rem .7rem;
         font-weight: 600;
-        font-size: 1.2rem;
+        font-size: 1rem;
         color: #151515;
     }
     
