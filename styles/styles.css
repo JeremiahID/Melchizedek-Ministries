@@ -203,12 +203,17 @@ header ul li a:hover::after{
     }
 
     #navigations{
+        display:none ;
         flex-direction: column;
         position: absolute;
-        top: 0;
+        top: 0px;
         left: 0;
         width: 20%;
         background-color: #A68B54;
+        align-items: flex-start;
+        border: 1px solid #f2f4cd;
+        margin: 0rem;
+        padding: 0rem 1rem;
     }
 
 
@@ -216,7 +221,69 @@ header ul li a:hover::after{
         display: block;
     }
 
+    #close-hamburger{
+        display: block;
+    }
+
     .fixed-socials{
         width: 10vw;
     }
+
+    li{
+        list-style-type: none;
+        padding: 1.5rem 0rem;
+    }
+    
+    li a{
+        padding: .5rem 0rem;
+    }
+
+
+    /* HERO SECTION */
+    .hero{
+        min-height: 90vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-image:url('../images/IMG-20220608-WA0018.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+    
+}
+
+
+/* Mobile view */
+@media screen and (max-width: 500px) {
+
+    /* HERO SECTION */
+    .hero{
+        min-height: 90vh;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        background-image:url('../images/IMG-20230509-WA0002.jpg');
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+
+    .donate{
+        background-color: #f2f4cd;
+        padding: .5rem 1.5rem;
+        font-weight: 600;
+        font-size: 1.2rem;
+        color: #151515;
+    }
+    
+    .donate:hover{
+        background-color: #f2f4cdc7;
+    }
+    
 }
