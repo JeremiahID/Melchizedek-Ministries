@@ -178,3 +178,11 @@ header ul li a:hover::after{
     color: rgb(105, 80, 16);
     
 }
+
+
+/* SERVICES */
+
+.services{
+    min-height: 50vh;
+    width: 100%;
+}
