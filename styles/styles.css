@@ -211,7 +211,8 @@ header ul li a:hover::after{
         width: 20%;
         background-color: #A68B54;
         align-items: flex-start;
-        border: 1px solid #f2f4cd;
+        border-right: 3px solid #f2f4cd;
+        border-bottom: 3px solid #f2f4cd;
         margin: 0rem;
         padding: 0rem 1rem;
     }
@@ -260,6 +261,10 @@ header ul li a:hover::after{
 /* Mobile view */
 @media screen and (max-width: 500px) {
 
+
+    #navigations{
+        width: 35%;
+    }
     /* HERO SECTION */
     .hero{
         min-height: 90vh;
@@ -284,6 +289,10 @@ header ul li a:hover::after{
     
     .donate:hover{
         background-color: #f2f4cdc7;
+    }
+
+    .fixed-socials{
+        width: 15vw;
     }
     
 }
