@@ -296,32 +296,22 @@ header ul li a:hover::after{
 
     
     .service-schedule-head{
-        width: 100%;
-        height: 35vh;
-        flex-direction: column;
         margin-top: 4rem;
     
     }
     
-    .service-schedule img{
-        width: 2vh;
-        height: 2vh;
+    .service-schedule-head img{
+        width: 12vh;
+        height: 12vh;
     }
     
     .service-schedule-header{
-        font-size: 4rem;
-        font-weight: 600;
-        margin: 0;
-        color: #866e3e;
-        padding-top: 1rem;
+        font-size: 3.5rem;
     
     }
     
     .service-schedule-p{
-        color: #866e3e;
-        font-weight: 600;
-        margin: 0;
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
 }
@@ -363,5 +353,30 @@ header ul li a:hover::after{
     .fixed-socials{
         width: 15vw;
     }
+
+    /* SERVICES */
+
+
+    .service-schedule-head{
+        margin-top: 2rem;
     
+    }
+    
+    .service-schedule-head img{
+        width: 12vh;
+        height: 12vh;
+    }
+    
+    .service-schedule-header{
+        font-size: 2.5rem;
+    
+    }
+    
+    .service-schedule-p{
+        color: #866e3e;
+        font-weight: 600;
+        margin: 0;
+        font-size: .7rem;
+    }
+
 }
