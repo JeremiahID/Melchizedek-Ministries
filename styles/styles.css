@@ -243,10 +243,12 @@ header ul li a:hover::after{
     width: 100%;
     height: 15vh;
     color: #866e3e;
+    
     flex-direction: column;
     display: grid;
     margin: 2rem 0rem;
     grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 5rem;
 
 }
 
@@ -281,8 +283,28 @@ header ul li a:hover::after{
 /* PASTORS QUOTE */
 .pastors-quote{
     width: 100%;
-    height: 60vh;
-    background-color: #151515;
+    height: 80vh;
+    position: relative;
+    border-top: 3px solid #A68B54;
+}
+
+.quote-svg{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.quotes-head{
+    width: 100%;
+    height: 15%;
+}
+
+.quotes-h{
+    color: #866e3e;
+    margin: 0;
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding: 1rem 3rem;
 }
 
 
@@ -457,8 +479,7 @@ header ul li a:hover::after{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(4, 1fr);
         row-gap: 1rem;
-    
-    
+
     }
 
     .sunday-schedule, .thursday-schedule, .wednesday-schedule{
