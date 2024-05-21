@@ -77,7 +77,6 @@ body{
 
 
 
-
 /* NAVIAGTION */
 
 li{
@@ -349,6 +348,9 @@ header ul li a:hover::after{
 
     /* SERVICES */
 
+    .services{
+        height: 90vh;
+    }
     
     .service-schedule-head{
         margin-top: 4rem;
@@ -367,6 +369,18 @@ header ul li a:hover::after{
     
     .service-schedule-p{
         font-size: 1rem;
+    }
+
+    .service-schedule{
+        height: 50vh;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 3rem;
+    
+    }
+
+    .wednesday-schedule{
+        border: 0;
     }
     
 }
@@ -432,6 +446,37 @@ header ul li a:hover::after{
         font-weight: 600;
         margin: 0;
         font-size: .7rem;
+    }
+
+    .services{
+        height: 135vh;
+    }
+
+    .service-schedule{
+        height: 90vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 1rem;
+    
+    
+    }
+
+    .sunday-schedule, .thursday-schedule, .wednesday-schedule{
+        border-right: 0;
+        border-bottom: 2px solid #866e3e;
+    }
+
+    .span-text-size{
+        font-size: 2.3rem;
+        font-weight: bolder;
+        margin: 0;
+    }
+    
+    .span-text-size-p{
+        font-size: 1.3rem;
+        font-family: calibri;
+        padding-top: .5rem;
+        margin: 0;
     }
 
 }
