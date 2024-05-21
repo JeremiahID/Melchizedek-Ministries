@@ -75,6 +75,9 @@ body{
 
 
 
+
+
+
 /* NAVIAGTION */
 
 li{
@@ -111,7 +114,11 @@ header ul li a:hover::after{
 }
 
 
-/* DONATE */
+
+
+
+
+/* JOIN US */
 
 .donate{
     background-color: #f2f4cd;
@@ -124,6 +131,8 @@ header ul li a:hover::after{
 .donate:hover{
     background-color: #f2f4cdc7;
 }
+
+
 
 
 
@@ -141,6 +150,11 @@ header ul li a:hover::after{
     gap: 1rem;
     z-index: 1;
 }
+
+
+
+
+
 
 
 /* HERO SECTION */
@@ -183,10 +197,14 @@ header ul li a:hover::after{
 }
 
 
+
+
+
+
 /* SERVICES */
 
 .services{
-    min-height: 80vh;
+    min-height: 50vh;
     width: 100%;
 }
 
@@ -207,13 +225,13 @@ header ul li a:hover::after{
     font-size: 4rem;
     font-weight: 600;
     margin: 0;
-    color: #866e3e;
+    color: #151515;
     padding-top: 1rem;
 
 }
 
 .service-schedule-p{
-    color: #866e3e;
+    color: #151515;
     font-weight: 600;
     margin: 0;
     font-size: 1.1rem;
@@ -224,12 +242,45 @@ header ul li a:hover::after{
 
 .service-schedule{
     width: 100%;
-    height: 45vh;
-    background-color: red;
+    height: 15vh;
+    color: #866e3e;
     flex-direction: column;
+    display: grid;
+    margin: 2rem 0rem;
+    grid-template-columns: repeat(4, 1fr);
 
 }
 
+.span-text-size{
+    font-size: 2rem;
+    margin: 0;
+}
+
+.span-text-size-p{
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.span-one{
+    grid-column: span 1;
+    border-right: 3px solid #A68B54;
+    padding-left: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.friday-schedule{
+    border: 0;
+}
+
+
+
+/* PASTORS QUOTE */
+.pastors-quote{
+    width: 100%;
+    height: 60vh;
+    background-color: #151515;
+}
 
 
 
