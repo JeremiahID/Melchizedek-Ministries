@@ -6,6 +6,8 @@ console.log("working")
 Hamburger.addEventListener('click', ()=>{
     if(Navigation.style.display === "none"){
         Navigation.style.display = "block";
+        Navigation.style.transition = "" ;
+        
 
     }else{
         Navigation.style.display = "none";
