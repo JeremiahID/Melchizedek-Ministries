@@ -354,6 +354,7 @@ header ul li a:hover::after{
         border-bottom: 3px solid #f2f4cd;
         margin: 0rem;
         padding: 0rem 1rem;
+        transition: all .5s ease-in 0s;
     }
 
 
@@ -363,6 +364,7 @@ header ul li a:hover::after{
 
     #close-hamburger{
         display: block;
+        margin-top: .5rem;
     }
 
     .fixed-socials{
@@ -371,7 +373,7 @@ header ul li a:hover::after{
 
     li{
         list-style-type: none;
-        padding: 1.5rem 0rem;
+        padding: 1.2rem 0rem;
     }
     
     li a{
@@ -461,6 +463,7 @@ header ul li a:hover::after{
 
     .quote-container img{
         height: 35vh;
+        box-shadow: 5px 5px 10px 2px #151515ea;
 
     }
 
@@ -564,7 +567,7 @@ header ul li a:hover::after{
 
     /* PASTORS QUOTE */
     .pastors-quote{
-        height: 200vh;
+        height: 210vh;
     }
 
     .quotes-head{
@@ -582,7 +585,7 @@ header ul li a:hover::after{
         width: 100%;
         grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(6, 1fr);
-        gap: .5rem;
+        row-gap: 1.5rem;
         margin: 0rem 0rem;
         
     }
