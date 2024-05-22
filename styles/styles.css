@@ -284,6 +284,7 @@ header ul li a:hover::after{
 .pastors-quote{
     width: 100%;
     height: 110vh;
+    background-color: #f2f4cd96;
     border-top: 3px solid #A68B54;
 }
 
@@ -335,6 +336,19 @@ header ul li a:hover::after{
 }
 
 
+
+
+
+
+/* PASTOR'S MESSAGE */
+.pastors-messages{
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+/* tablet view */
 @media screen and (max-width: 900px) {
 
     .header{
@@ -354,7 +368,6 @@ header ul li a:hover::after{
         border-bottom: 3px solid #f2f4cd;
         margin: 0rem;
         padding: 0rem 1rem;
-        /* transition: all .5s ease-in 0s; */
     }
 
 
