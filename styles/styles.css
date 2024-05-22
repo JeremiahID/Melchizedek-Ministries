@@ -354,7 +354,7 @@ header ul li a:hover::after{
         border-bottom: 3px solid #f2f4cd;
         margin: 0rem;
         padding: 0rem 1rem;
-        transition: all .5s ease-in 0s;
+        /* transition: all .5s ease-in 0s; */
     }
 
 
