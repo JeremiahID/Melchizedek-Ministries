@@ -203,8 +203,9 @@ header ul li a:hover::after{
 /* SERVICES */
 
 .services{
-    min-height: 50vh;
+    min-height: 60vh;
     width: 100%;
+
 }
 
 .service-schedule-head{
@@ -241,9 +242,8 @@ header ul li a:hover::after{
 
 .service-schedule{
     width: 100%;
-    height: 15vh;
+    height: 20vh;
     color: #866e3e;
-    
     flex-direction: column;
     display: grid;
     margin: 2rem 0rem;
@@ -283,9 +283,8 @@ header ul li a:hover::after{
 /* PASTORS QUOTE */
 .pastors-quote{
     width: 100%;
-    height: 110vh;
-    background-color: #f2f4cd96;
-    border-top: 3px solid #A68B54;
+    height: 120vh;
+    background-color:#A68B54;
 }
 
 
@@ -296,7 +295,7 @@ header ul li a:hover::after{
 }
 
 .quotes-h{
-    color: #866e3e;
+    color: #ffffff;
     margin: 0;
     font-size: 3rem;
     text-transform: capitalize;
@@ -325,13 +324,13 @@ header ul li a:hover::after{
 .quote-container img{
     width: 85%;
     height: 44vh;
-    box-shadow: 2px 2px 10px 5px #151515ea;
+    box-shadow: 2px 3px 5px 3px  #f2f4cd ;
 
 }
 
 .quote-container img:hover{
-    box-shadow: 2px 2px 10px 5px #151515b4;
-    transition: all .2s ease-in 0s;
+    box-shadow: 2px 2px 10px 5px #f2f4cd;
+    transition: all .3s ease-in 0s;
 
 }
 
@@ -344,6 +343,8 @@ header ul li a:hover::after{
 .pastors-messages{
     width: 100%;
     height: 70vh;
+    background-color: #151515;
+    margin: 2rem 0rem;
 }
 
 
