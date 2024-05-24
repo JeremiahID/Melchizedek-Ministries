@@ -295,7 +295,7 @@ header ul li a:hover::after{
 }
 
 .quotes-h{
-    color: #ffffff;
+    color: #f2f4cdee;
     margin: 0;
     font-size: 3rem;
     text-transform: capitalize;
@@ -367,7 +367,7 @@ header ul li a:hover::after{
         align-items: flex-start;
         border-right: 3px solid #f2f4cd;
         border-bottom: 3px solid #f2f4cd;
-        border-bottom-right-radius: 10%;
+        border-top-right-radius: 80px;
         margin: 0rem;
         padding: 0rem 1rem;
     }
@@ -393,6 +393,7 @@ header ul li a:hover::after{
     
     li a{
         padding: .5rem 0rem;
+    
     }
 
 
@@ -476,13 +477,6 @@ header ul li a:hover::after{
         
     }
 
-    .quote-container img{
-        height: 35vh;
-        box-shadow: 5px 5px 10px 2px #151515ea;
-
-    }
-
-
 
     
 }
@@ -491,9 +485,15 @@ header ul li a:hover::after{
 /* Mobile view */
 @media screen and (max-width: 500px) {
 
+    /*NAVIGATIONS */
+
 
     #navigations{
         width: 35%;
+    }
+
+    li a{
+        font-size: 1.1rem;
     }
     /* HERO SECTION */
     .hero{
