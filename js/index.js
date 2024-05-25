@@ -1,7 +1,6 @@
 const Hamburger = document.querySelector('#hamburger');
 const CloseHamburger = document.querySelector('#close-hamburger');
 const Navigation = document.querySelector('#navigations');
-console.log("working")
 
 Hamburger.addEventListener('click', ()=>{
     if(Navigation.style.display === "none"){
