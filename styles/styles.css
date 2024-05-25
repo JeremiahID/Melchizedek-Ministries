@@ -681,12 +681,13 @@ header ul li a:hover::after{
     }
 
     .pastors-messages-h{
-        padding-top: 2rem;
+        padding-top: 5rem;
         font-size: 2rem;
     }
 
     .sermons-three{
         grid-column: span 1;
+        align-items: flex-start;
     }
 
 }
