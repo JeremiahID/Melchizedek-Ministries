@@ -50,7 +50,7 @@ body{
 /* HEADER */
 
 .header{
-    background-color: #A68B54;
+    background-color: #866e3e;
     min-height: 10vh;
     justify-content: space-around;
 }
@@ -393,7 +393,9 @@ header ul li a:hover::after{
 
 
 .footer{
-    background-color: ;
+    background-color: #866e3e;
+    min-height: 60vh;
+    width: 100%;
 }
 
 
