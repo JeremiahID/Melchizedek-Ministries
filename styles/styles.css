@@ -139,7 +139,7 @@ header ul li a:hover::after{
 /* FIXED SOCIAL */
 
 .fixed-socials{
-    height:25vh;
+    height:27vh;
     min-width: 5vw;
     position: fixed;
     top:60vh ;
@@ -285,7 +285,7 @@ header ul li a:hover::after{
 .pastors-quote{
     width: 100%;
     height: 120vh;
-    background-color:#A68B54;
+    background-color:#866e3e;
 }
 
 
@@ -356,7 +356,7 @@ header ul li a:hover::after{
 .pastor-message-wrapper{
     width: 90%;
     height: 45vh;
-    background-color: #A68B54;
+    background-color: #866e3e;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
