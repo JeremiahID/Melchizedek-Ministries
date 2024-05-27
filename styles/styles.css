@@ -372,6 +372,7 @@ header ul li a:hover::after{
     padding-left: 2rem;
     font-family: calibri;
     color: #866e3e;
+    border-radius: 15px;
 }
 
 .sermons p{
