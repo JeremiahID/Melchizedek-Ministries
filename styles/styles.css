@@ -392,12 +392,21 @@ header ul li a:hover::after{
 
 
 
-
+/* /FOOTER/ */
 
 .footer{
     background-color: #866e3e;
     height: 60vh;
     width: 100%;
+    flex-direction: column;
+}
+
+.footer-logo{
+    width: 5%;
+}
+
+.footer-text{
+    
 }
 
 
