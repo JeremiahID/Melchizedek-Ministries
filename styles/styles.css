@@ -396,7 +396,7 @@ header ul li a:hover::after{
 
 .footer{
     background-color: #866e3e;
-    height: 60vh;
+    height: 50vh;
     width: 100%;
     flex-direction: column;
     text-align: center;
@@ -409,6 +409,10 @@ header ul li a:hover::after{
 .footer-text{
     font-family: calibri;
     font-weight: 400;
+}
+
+.footer-text > a{
+    color: #f2f4cdb6;
 }
 
 
@@ -569,6 +573,17 @@ header ul li a:hover::after{
     .sermons-three{
         grid-column: span 2;
         align-items: center;
+    }
+
+
+    /*FOOTER*/
+    .footer-logo{
+        width: 10%;
+    }
+
+    .footer-text{
+        word-spacing: 3px;
+
     }
 
     
