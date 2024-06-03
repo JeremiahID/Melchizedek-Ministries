@@ -399,6 +399,7 @@ header ul li a:hover::after{
     height: 60vh;
     width: 100%;
     flex-direction: column;
+    text-align: center;
 }
 
 .footer-logo{
@@ -406,7 +407,8 @@ header ul li a:hover::after{
 }
 
 .footer-text{
-    
+    font-family: calibri;
+    font-weight: 400;
 }
 
 
