@@ -116,7 +116,7 @@ header ul li a:hover::after{
 
 /* JOIN US */
 
-.donate{
+.live{
     background-color: #f2f4cd;
     padding: .5rem 1.5rem;
     font-weight: 600;
@@ -124,7 +124,7 @@ header ul li a:hover::after{
     color: #151515;
 }
 
-.donate:hover{
+.live:hover{
     background-color: #f2f4cdc7;
 }
 
@@ -417,6 +417,7 @@ header ul li a:hover::after{
 
 
 
+
 /* ABOUT PAGE STYLING*/
 
 .about{
@@ -428,6 +429,16 @@ header ul li a:hover::after{
 
 
 
+
+
+
+/* The News and Events page styling */
+
+
+.news-events{
+    width: 100%;
+    height: 100vh;
+}
 
 
 
