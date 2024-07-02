@@ -558,6 +558,7 @@ header ul li a:hover::after{
     width: 100%;
     flex-direction: column;
     text-align: center;
+    color: #f2f4cd !important;
 }
 
 .footer-logo{
@@ -625,6 +626,7 @@ header ul li a:hover::after{
         border-top-right-radius: 80px;
         margin: 0rem;
         padding: 0rem 1rem;
+        z-index: 2;
     }
 
 
