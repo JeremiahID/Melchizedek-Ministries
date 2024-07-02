@@ -618,6 +618,7 @@ header ul li a:hover::after{
     #close-hamburger{
         display: block;
         margin-top: .5rem;
+        border: 1px solid #f2f4cd;
         color: #f2f4cd !important;
     }
 
