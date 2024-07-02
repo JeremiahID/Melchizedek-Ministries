@@ -508,7 +508,7 @@ header ul li a:hover::after{
     background-color: #f2f4cd;
     margin: 1rem 1rem;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
     padding-left: 2rem;
     font-family: calibri;
     color: #866e3e;
@@ -725,6 +725,7 @@ header ul li a:hover::after{
 
     .sermons{
         grid-column: span 1;
+        align-items: flex-start;
     }
 
     .sermons-three{
@@ -760,18 +761,9 @@ header ul li a:hover::after{
     li a{
         font-size: 1.1rem;
     }
-    /* HERO SECTION */
-    .hero{
-        min-height: 90vh;
-        width: 100%;
-        flex-direction: column;
-        align-items: flex-end;
-        justify-content: flex-start;
-        background-image:url('../images/IMG-20230509-WA0002.jpg');
-        background-position: top;
-        background-size: cover;
-        background-repeat: no-repeat;
-    
+
+    .fluid-img {
+        width: 130% !important;
     }
 
     .donate{
