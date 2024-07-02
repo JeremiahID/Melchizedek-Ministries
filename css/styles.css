@@ -333,25 +333,6 @@ header ul li a:hover::after{
 .index-2 {
     z-index: 2;
 }
-/* .bg-green-dark {
-    background-color: #002418;
-}
-.bg-green-light {
-    background-color: #006745;
-}
-.bg-green-lighter {
-    background-color: #008459;
-}
-.bg-blue {
-    background-color: #052747;
-} */
-
-/* .btn-secondary:hover {
-    color: #052747;
-    background-color: #fff !important;
-    border: 1px solid #0527473f !important;
-} */
-
 
 
 
@@ -527,7 +508,7 @@ header ul li a:hover::after{
     background-color: #f2f4cd;
     margin: 1rem 1rem;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     padding-left: 2rem;
     font-family: calibri;
     color: #866e3e;
