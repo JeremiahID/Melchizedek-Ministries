@@ -168,7 +168,7 @@ header ul li a:hover::after{
 }
 
 .img-carousel-1 {
-    background-image: url("/images/IMG-20220608-WA0018.jpg");
+    background-image: url("../images/IMG-20220608-WA0018.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -187,7 +187,7 @@ header ul li a:hover::after{
 }
 
 .img-carousel-2 {
-    background-image: url("/images/IMG_0198.jpg");
+    background-image: url("../images/IMG_0198.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top ;
@@ -197,7 +197,7 @@ header ul li a:hover::after{
 }
 
 .img-carousel-3 {
-    background-image: url("/images/IMG_0200.jpg");
+    background-image: url("../images/IMG_0200.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top ;
@@ -262,7 +262,7 @@ header ul li a:hover::after{
 
 .btn-transparent {
     background-color: transparent!important;
-    color: #f2f4cd !important;
+    color: #fff !important;
     border: 1px solid #ffff !important;
 }
 
@@ -365,7 +365,6 @@ header ul li a:hover::after{
     min-height: 60vh;
     width: 100%;
     margin-bottom: 3rem;
-    border-top: 1px solid #866e3e;
 
 }
 
