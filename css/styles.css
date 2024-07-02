@@ -333,7 +333,7 @@ header ul li a:hover::after{
 .index-2 {
     z-index: 2;
 }
-.bg-green-dark {
+/* .bg-green-dark {
     background-color: #002418;
 }
 .bg-green-light {
@@ -344,37 +344,13 @@ header ul li a:hover::after{
 }
 .bg-blue {
     background-color: #052747;
-}
+} */
 
 /* .btn-secondary:hover {
     color: #052747;
     background-color: #fff !important;
     border: 1px solid #0527473f !important;
 } */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -660,6 +636,7 @@ header ul li a:hover::after{
     #close-hamburger{
         display: block;
         margin-top: .5rem;
+        color: #f2f4cd !important;
     }
 
     .fixed-socials{
