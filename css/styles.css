@@ -611,6 +611,8 @@ header ul li a:hover::after{
     #hamburger{
         display: block;
         color: #f2f4cd !important;
+        border: 1px solid #f2f4cd;
+        border-radius: 5px;
     }
 
     #close-hamburger{
