@@ -601,7 +601,7 @@ header ul li a:hover::after{
         align-items: flex-start;
         border-right: 3px solid #f2f4cd;
         border-bottom: 3px solid #f2f4cd;
-        border-top-right-radius: 80px;
+        /* border-top-right-radius: 80px; */
         margin: 0rem;
         padding: 0rem 1rem;
         z-index: 2;
@@ -758,7 +758,7 @@ header ul li a:hover::after{
 
 
     #navigations{
-        width: 35%;
+        width: 30%;
     }
 
     li a{
