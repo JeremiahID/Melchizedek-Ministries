@@ -18,7 +18,7 @@ milk-white: #f2f4cd /60%/
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: #f2f4cd;
 }
 
@@ -156,44 +156,63 @@ header ul li a:hover::after{
 
 /* HERO SECTION */
 
-.hero{
-    min-height: 90vh;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-start;
-    background-image: linear-gradient(to right, #ffffff00, #a68b5434,#A68B54 ,  #A68B54  ) ,url('../images/IMG-20230509-WA0002.jpg');
-    background-position: left;
-    background-size: contain;
+.fluid-img {
+    width: 110% !important;
+    height: 100vh !important;
+    object-fit: cover !important;
+    background-attachment: fixed !important;
+    /* animation: scrollBg 3s linear forwards; */
+}
+
+.img-carousel-1 {
+    background-image: url("/images/IMG-20220608-WA0018.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+    animation: scrollBack 30s linear forwards;
 }
 
-.hero-header{
-    font-size: 4rem;
-    line-height: 0rem;
-    font-weight: 900;
-    text-transform: capitalize;
-    font-family: calibri;
-    color:#f2f4cd;
-
+@keyframes scrollBack {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-330px);
+    }
 }
 
-.hero-layer-text{
-    font-size: 2rem;
-    line-height: 0rem;
-    font-family: calibri;
-    text-transform: capitalize;
-    color: #151515;
-    align-self: center;
+.img-carousel-2 {
+    background-image: url("/images/FB_IMG_1716320427721.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+    animation: scrollforward 30s linear infinite forwards;
 }
 
-.hero-layer-text-p{
-    color: rgb(105, 80, 16);
-    
+.img-carousel-3 {
+    background-image: url("/images/IMG-20230509-WA0002.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    background-attachment: fixed;
+    animation: scrollBack 30s linear infinite forwards;
 }
 
 
+@keyframes scrollforward {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(330px);
+    }
+}
+  
 
 
 
