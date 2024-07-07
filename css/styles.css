@@ -212,20 +212,20 @@ header ul li a:hover::after{
 }
 
 .img-carousel-4 {
-    background-image: url("../images/IMG_0200.jpg");
+    background-image: url("../images/IMG_1212.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top ;
+    background-position: center ;
     height: 100vh;
     background-attachment: fixed;
     animation: scrollforward 30s linear infinite forwards;
 }
 
 .img-carousel-5 {
-    background-image: url("../images/IMG_0200.jpg");
+    background-image: url("../images/IMG_1225.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top ;
+    background-position: center ;
     height: 100vh;
     background-attachment: fixed;
     animation: scrollBack 30s linear infinite forwards;
