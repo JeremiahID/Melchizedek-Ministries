@@ -354,9 +354,20 @@ header ul li a:hover::after{
 .bg-green-25 {
     background-color: hwb(161 0% 72% / 0.6);
 }
-  
+
+.bg-brown{
+    background-color: #866e3e;
+}
+
+.bg-brown-light{
+    background-color: #a68b546c;
+}  
 .index-2 {
     z-index: 2;
+}
+
+.t-align{
+    text-align: center;
 }
 
 
