@@ -51,7 +51,7 @@ body{
 
 .header{
     background-color: #866e3e;
-    min-height: 10vh;
+    min-height: 10vh !important;
     justify-content: space-around;
 }
 
@@ -111,9 +111,6 @@ header ul li a:hover::after{
 
 .header-link-active{
     content: '';
-    position: relative;
-    left: 0;
-    top: 0px;
     border-top: 3px solid #FFFFFF;
 }
 
@@ -599,6 +596,17 @@ header ul li a:hover::after{
         justify-content: space-around;
     }
 
+    .header-link-active{
+        border-bottom: 3px solid #FFFFFF;
+    }
+
+
+
+    header ul li a::after{
+        display: none;
+        
+    }
+
     #navigations{
         display:none ;
         flex-direction: column;
@@ -608,8 +616,8 @@ header ul li a:hover::after{
         width: 20%;
         background-color: #A68B54;
         align-items: flex-start;
-        border-right: 3px solid #f2f4cd;
-        border-bottom: 3px solid #f2f4cd;
+        border-right: 3px solid #FFFFFF;
+        border-bottom: 3px solid #FFFFFF;
         /* border-top-right-radius: 80px; */
         margin: 0rem;
         padding: 0rem 1rem;
