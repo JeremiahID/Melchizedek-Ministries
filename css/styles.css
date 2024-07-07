@@ -473,7 +473,7 @@ header ul li a:hover::after{
 }
 
 .quotes-h{
-    color: #f2f4cdee;
+    color: #FFFFFF;
     margin: 0;
     font-size: 3rem;
     text-transform: capitalize;
@@ -561,6 +561,52 @@ header ul li a:hover::after{
     height: 5vh;
     color: #866e3e;
 }
+
+
+
+
+/* THE MEDIA SECTION */
+
+
+.media{
+    /* position: relative; */
+    min-height: 70vh; 
+    margin-top: 5vh; 
+    /* border: 1px solid red; */
+
+}
+
+.media-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover1s {
+    /* transform: scale(.9); */
+    transition: .5s;
+}
+
+.hover1s:hover {
+    transform: scale(1.05);
+}
+
+.media-h h2{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
