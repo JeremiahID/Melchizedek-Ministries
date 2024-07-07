@@ -11,15 +11,15 @@ milk-white: #f2f4cd /60%/
 
 
 :root{
-    background-color: #f2f4cd;
-    color: #f2f4cd;
+    background-color: #FFFFFF !important;
+    color:  #FFFFFF;
     font-family: Candara light;
  
 }
 
 a{
     text-decoration: none !important;
-    color: #f2f4cd;
+    color:  #FFFFFF;
 }
 
 body{
@@ -82,7 +82,7 @@ li{
 }
 
 li a{
-    color: #f2f4cd;
+    color:  #FFFFFF;
     font-size: 1.3rem;
     font-weight: 600;
     font-family: calibri;
@@ -97,7 +97,7 @@ header ul li a::after{
     content: '';
     width: 0%;
     height: 3px;
-    background-color:#f2f4cd;
+    background-color: #FFFFFF;
     position: absolute;
     left: 0;
     bottom: 0px;
@@ -109,6 +109,14 @@ header ul li a:hover::after{
     width: 100%;
 }
 
+.header-link-active{
+    content: '';
+    position: relative;
+    left: 0;
+    top: 0px;
+    border-top: 3px solid #FFFFFF;
+}
+
 
 
 
@@ -116,7 +124,7 @@ header ul li a:hover::after{
 /* JOIN US */
 
 .live{
-    background-color: #f2f4cd;
+    background-color:  #FFFFFF;
     padding: .5rem 1.5rem;
     font-weight: 600;
     font-size: 1.2rem;
@@ -345,7 +353,8 @@ header ul li a:hover::after{
 .services{
     min-height: 60vh;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
+    background-color:  #FFFFFF;
 
 }
 
@@ -505,7 +514,7 @@ header ul li a:hover::after{
 
 .sermons{
     grid-column: span 1;
-    background-color: #f2f4cd;
+    background-color: #FFFFFF;
     margin: 1rem 1rem;
     flex-direction: column;
     align-items: center ;
