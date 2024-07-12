@@ -13,7 +13,7 @@ milk-white: #f2f4cd /60%/
 :root{
     background-color: #FFFFFF !important;
     color:  #FFFFFF;
-    font-family: Candara light;
+    font-family: "cormorant";
  
 }
 
@@ -405,6 +405,7 @@ header ul li a:hover::after{
     margin: 0;
     color: #151515;
     padding-top: 1rem;
+    font-family: "cormorant";
 
 }
 
@@ -434,6 +435,8 @@ header ul li a:hover::after{
     font-size: 2.5rem;
     font-weight: bolder;
     margin: 0;
+    font-family: "cormorant";
+    
 }
 
 .span-text-size-p{
@@ -441,6 +444,7 @@ header ul li a:hover::after{
     font-family: calibri;
     padding-top: .5rem;
     margin: 0;
+    
 }
 
 .span-one{
@@ -478,6 +482,7 @@ header ul li a:hover::after{
     font-size: 3rem;
     text-transform: capitalize;
     padding: 1rem 3rem;
+    font-family: "cormorant";
 }
 
 .quotes-wrapper{
@@ -528,6 +533,7 @@ header ul li a:hover::after{
 .pastors-messages-h{
     color: #866e3e;
     font-size: 2.5rem;
+    font-family: "cormorant";
 }
 
 .pastor-message-wrapper{
@@ -547,7 +553,7 @@ header ul li a:hover::after{
     flex-direction: column;
     align-items: center ;
     padding-left: 2rem;
-    font-family: calibri;
+    font-family: "cormorant";
     color: #866e3e;
     border-radius: 15px;
 }
@@ -581,6 +587,7 @@ header ul li a:hover::after{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: "cormorant";
 }
 
 .hover1s {
@@ -666,11 +673,21 @@ header ul li a:hover::after{
 }
 
 .about-words {
+    margin: 2rem 0rem;
     height: 50vh;
     flex-direction: column;
+    justify-content: flex-start;
 }
 
+.who-we-are{
+    /* background-color: red; */
+    width: 50%;
+}
 
+.who-we-are > p{
+    text-align: left;
+    font-size: 1.2rem;
+}
 
 
 
