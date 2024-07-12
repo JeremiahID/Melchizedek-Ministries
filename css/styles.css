@@ -665,6 +665,11 @@ header ul li a:hover::after{
     font-size:2.5rem;
 }
 
+.about-words {
+    height: 50vh;
+    flex-direction: column;
+}
+
 
 
 
