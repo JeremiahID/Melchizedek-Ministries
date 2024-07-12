@@ -584,7 +584,7 @@ header ul li a:hover::after{
 }
 
 .hover1s {
-    /* transform: scale(.9); */
+    transform: scale(.9);
     transition: .5s;
 }
 
