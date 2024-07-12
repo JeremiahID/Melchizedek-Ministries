@@ -644,13 +644,26 @@ header ul li a:hover::after{
 
 /* ABOUT PAGE STYLING*/
 
-.about{
+#about{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+.about-hero{
+    height: 40vh;
+    width: 100%;
+    background-image: linear-gradient(to left,#151515bd,#151515bd), url("../images/IMG_1212.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* align-items: flex-end; */
+}
 
-
+.about-header{
+    color: #FFFFFF;
+    font-family:"cormorant";
+    font-size:2.5rem;
+}
 
 
 
