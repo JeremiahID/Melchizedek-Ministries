@@ -112,6 +112,7 @@ header ul li a:hover::after{
 .header-link-active{
     content: '';
     border-top: 3px solid #FFFFFF;
+    color: #473614;
 }
 
 
@@ -1078,7 +1079,7 @@ header ul li a:hover::after{
     }
 
     #about{
-        min-height: 75vh;
+        min-height: 7he5vh;
     }
 
     .who-we-are,.mission-vision-statment{
