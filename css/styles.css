@@ -679,14 +679,19 @@ header ul li a:hover::after{
     justify-content: flex-start;
 }
 
-.who-we-are{
-    /* background-color: red; */
+.who-we-are,.mission-vision-statment{
     width: 50%;
 }
 
-.who-we-are > p{
+.who-we-are-h{
+    font-size: 1.8rem;
+}
+
+.who-we-are-p{
     text-align: left;
     font-size: 1.2rem;
+    color: #151515cb;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
@@ -887,8 +892,24 @@ header ul li a:hover::after{
         height: 30vh;
     }
 
+    #about{
+        min-height: 90vh;
+    }
+
     .about-header{
         font-size:2rem;
+    }
+
+    .who-we-are,.mission-vision-statment{
+        width: 90%;
+    }
+
+    .who-we-are-h{
+        font-size: 1.5rem;
+    }
+    
+    .who-we-are-p{
+        font-size: 1rem;
     }
 
     
@@ -1056,5 +1077,28 @@ header ul li a:hover::after{
         font-size:1rem;
     }
 
+    #about{
+        min-height: 75vh;
+    }
 
+    .who-we-are,.mission-vision-statment{
+        width: 90%;
+    }
+
+    .who-we-are-h{
+        font-size: 1.5rem;
+    }
+    
+    .who-we-are-p{
+        font-size: .8rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 325px) {
+    #about{
+        min-height: 90vh;
+    }
 }
