@@ -660,7 +660,7 @@ header ul li a:hover::after{
 }
 
 .about-header{
-    color: #FFFFFF;
+    color: #f2f4cd;
     font-family:"cormorant";
     font-size:2.5rem;
 }
@@ -855,6 +855,20 @@ header ul li a:hover::after{
 
     }
 
+
+
+
+
+    /* ABOUT PAGE STYLING*/
+
+    .about-hero{
+        height: 30vh;
+    }
+
+    .about-header{
+        font-size:2rem;
+    }
+
     
 }
 
@@ -1007,5 +1021,18 @@ header ul li a:hover::after{
     .footer{
     
     }
+
+
+
+    /* ABOUT PAGE STYLING*/
+
+    .about-hero{
+        height: 15vh;
+    }
+
+    .about-header{
+        font-size:1rem;
+    }
+
 
 }
