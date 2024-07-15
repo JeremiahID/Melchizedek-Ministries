@@ -130,7 +130,8 @@ header ul li a:hover::after{
 }
 
 .live:hover{
-    background-color: #f2f4cdc7;
+    background-color: #15151550;
+    color: #FFFFFF;
 }
 
 
