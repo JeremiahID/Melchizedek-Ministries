@@ -723,11 +723,6 @@ header ul li a:hover::after{
         justify-content: space-around;
     }
 
-    .header-link-active{
-        /* border-bottom: 3px solid #FFFFFF; */
-    }
-
-
 
     header ul li a::after{
         display: none;
