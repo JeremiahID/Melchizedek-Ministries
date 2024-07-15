@@ -134,9 +134,6 @@ header ul li a:hover::after{
     color: #FFFFFF;
 }
 
-.scroll-social{
-    background-color:;
-}
 
 .scroll-social:hover{
     background-color: #15151550;
@@ -727,7 +724,7 @@ header ul li a:hover::after{
     }
 
     .header-link-active{
-        border-bottom: 3px solid #FFFFFF;
+        /* border-bottom: 3px solid #FFFFFF; */
     }
 
 
