@@ -818,6 +818,20 @@ header ul li a:hover::after{
     color: #A68B54;
 }
 
+.event-date-svg-wrapper{
+    height: 30%;
+    margin: 0rem .5rem;
+}
+
+.event-date-svg-one, .event-date-svg-two{
+justify-content: flex-start;
+}
+
+
+.event-svg{
+    width: 2vw;
+    color: #A68B54;
+}
 
 
 
