@@ -717,7 +717,7 @@ header ul li a:hover::after{
 
 .events-header{
     color: #f2f4cd;
-    font-family:Candara light;
+    font-family:Calibri;
     text-transform: uppercase;
     font-size:3rem;
     padding-top: 2rem;
@@ -758,6 +758,9 @@ header ul li a:hover::after{
     width: 50%;
     height: inherit;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 2rem;
 }
 
 .event-date{
@@ -766,7 +769,37 @@ header ul li a:hover::after{
     border-left: 1px solid #473614;
 }
 
+.event-name-t{
+    font-family: calibri;
+}
 
+.event-name-t > h1{
+    text-transform: uppercase;
+}
+
+.event-name > a{
+    color: #A68B54;
+}
+
+.event-name > a:hover{
+    color: #FFFFFF;
+}
+
+.btn-event {
+    --bs-btn-bg: transparent !important;
+    --bs-btn-border-color:#A68B54 !important;
+    --bs-btn-disabled-bg: #A68B54 !important;
+    --bs-btn-disabled-border-color: #A68B54 !important;
+    color: #A68B54;
+}
+
+.btn-event:hover {
+    transition: all .5s ease-in-out 0s !important;
+    background-color: #A68B54!important;
+    color: #FFFFFF;
+    border: 1px solid #A68B54 !important;
+    
+}
 
 
 
@@ -994,6 +1027,10 @@ header ul li a:hover::after{
     .event-date{
         width: 20%;
     }
+
+    .event-name-t > p{
+        display: none;
+    }
     
 }
 
@@ -1173,6 +1210,43 @@ header ul li a:hover::after{
     
     .who-we-are-p{
         font-size: .8rem;
+    }
+
+    /* Events section */
+
+    .events-c{
+        width: 90%;
+    }
+
+
+    .event-img{
+        width: 5%;
+        
+    }
+
+    .event-img-one{
+        background-color: rgba(133, 8, 133, 0.726);
+    }
+
+    .event-img-two{
+        background-color: rgb(182, 148, 104);
+    }
+
+    .event-img-three{
+        background-color:rgb(10, 10, 43);
+    }
+
+    .img-fit{
+        display: none;
+    }
+
+    .event-name{
+        width: 55%;
+
+    }
+    
+    .event-date{
+        width: 40%;
     }
 
 
