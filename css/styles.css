@@ -763,12 +763,6 @@ header ul li a:hover::after{
     padding: 2rem 2rem;
 }
 
-.event-date{
-    width: 20%;
-    height: inherit;
-    border-left: 1px solid #473614;
-}
-
 .event-name-t{
     font-family: calibri;
 }
@@ -799,6 +793,29 @@ header ul li a:hover::after{
     color: #FFFFFF;
     border: 1px solid #A68B54 !important;
     
+}
+
+.event-date{
+    width: 20%;
+    height: inherit;
+    border-left: 1px solid #473614;
+}
+
+.event-date-d{
+    height: 70%;
+    background-color: white;
+    flex-direction: column;
+    
+}
+
+.event-date-d > h1{
+    font-size: 5rem;
+    line-height: 3rem;
+    color: #A68B54;
+}
+
+.event-date-d > h5{
+    color: #A68B54;
 }
 
 
@@ -1028,9 +1045,9 @@ header ul li a:hover::after{
         width: 20%;
     }
 
-    .event-name-t > p{
-        display: none;
-    }
+        .event-name-t > p{
+            display: none;
+        }
     
 }
 
