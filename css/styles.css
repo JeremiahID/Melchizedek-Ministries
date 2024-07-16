@@ -824,13 +824,19 @@ header ul li a:hover::after{
 }
 
 .event-date-svg-one, .event-date-svg-two{
-justify-content: flex-start;
+    justify-content: flex-start;
+    
 }
 
+.event-date-p{
+    font-size: 1.2rem;
+    font-family: calibri;
+    padding-left: .5rem;
+}
 
 .event-svg{
-    width: 2vw;
-    color: #A68B54;
+    width: 1.5vw;
+    color: #151515;
 }
 
 
