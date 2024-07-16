@@ -620,14 +620,6 @@ header ul li a:hover::after{
 
 
 
-
-
-
-
-
-
-
-
 /* /FOOTER/ */
 
 .footer{
@@ -668,7 +660,7 @@ header ul li a:hover::after{
 .about-hero{
     height: 40vh;
     width: 100%;
-    background-image: linear-gradient(to left,#151515bd,#151515bd), url("../images/IMG_1212.jpg");
+    background-image:  url("../images/IMG_1212.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -708,10 +700,74 @@ header ul li a:hover::after{
 /* The News and Events page styling */
 
 
-.news-events{
+#events{
     width: 100%;
-    height: 100vh;
+    /* min-height: 100vh; */
 }
+
+.events-hero{
+    height: 10vh;
+    width: 100%;
+    background-color:  #151515;;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* align-items: flex-end; */
+}
+
+.events-header{
+    color: #f2f4cd;
+    font-family:Candara light;
+    text-transform: uppercase;
+    font-size:3rem;
+    padding-top: 2rem;
+}
+
+.events-wrapper{
+    height: 150vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: #151515;
+}
+
+.events-c{
+    width: 80%;
+    height: 40vh;
+    background-color: #FFFFFF;
+    margin: 1rem 0rem;
+}
+
+.event-img{
+    width: 30%;
+    height: inherit;
+}
+
+
+
+.img-fit{
+    width: 100%;
+    height: 100%;
+}
+
+/* .event-img-three{
+    background-image:  url("../images/8.jpg");
+
+} */
+
+.event-name{
+    width: 50%;
+    height: inherit;
+    flex-direction: column;
+}
+
+.event-date{
+    width: 20%;
+    height: inherit;
+    border-left: 1px solid #473614;
+}
+
+
+
 
 
 
@@ -916,6 +972,28 @@ header ul li a:hover::after{
         font-size: 1rem;
     }
 
+
+
+    /* Events section */
+
+    .events-c{
+        width: 90%;
+    }
+
+
+    .event-img{
+        width: 40%;
+    }
+
+
+    .event-name{
+        width: 40%;
+
+    }
+    
+    .event-date{
+        width: 20%;
+    }
     
 }
 
