@@ -1029,28 +1029,38 @@ header ul li a:hover::after{
 
 
         /* PASTOR'S MESSAGE */
-    .pastors-messages{
-        height: 130vh;
-        width: 100%;
-  
-    }
 
+    .pastors-messages{
+        height: 110vh;
+        margin: 3rem 0rem;
+    }
 
     .pastor-message-wrapper{
-        height: 115vh;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        gap: .5rem;
+        width: 95%;
+        height: 102vh;
+        flex-direction: column;
     }
 
-    .sermons{
-        grid-column: span 1;
-        align-items: flex-start;
-    }
-
-    .sermons-three{
-        grid-column: span 2;
+    .pastor-messages-T{
+        width: 80%;
+        height: 10%;
+        display: flex;
         align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 1rem;
+    }
+
+    
+    .sermons{
+        width: 90%;
+        height: 90%;
+    }
+
+    .message-download-svg{
+        width: 2.5vw;
+        color: #151515;
+        margin: 0rem 1rem;
+    
     }
 
 
@@ -1259,26 +1269,10 @@ header ul li a:hover::after{
 
     }
 
-     /*pastor's message */
+    /*pastor's message */
 
-    .pastor-message-wrapper{
-        height: 115vh;
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
-        gap: .5rem;
-    }
-
-    .pastors-messages-h{
-        padding-top: .5rem;
-        font-size: 2rem;
-    }
-
-    .sermons-three{
-        grid-column: span 1;
-        align-items: flex-start;
-    }
-
-    .footer{
+    .message-download-svg{
+        width: 4vw;
     
     }
 
@@ -1379,6 +1373,19 @@ header ul li a:hover::after{
         width: 5vw;
     }
     
+    .sermon-mgs-h{
+        font-size: .9rem;
+    }
+    
+    .sermon-mgs-p{
+        font-size: .7rem;
+
+    }
+
+    .message-download-svg{
+        width: 4vw;
+    
+    }
 }
 
 
