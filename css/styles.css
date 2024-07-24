@@ -709,7 +709,6 @@ header ul li a:hover::after{
 
 #events{
     width: 100%;
-    /* min-height: 100vh; */
 }
 
 .events-hero{
@@ -756,10 +755,6 @@ header ul li a:hover::after{
     height: 100%;
 }
 
-/* .event-img-three{
-    background-image:  url("../images/8.jpg");
-
-} */
 
 .event-name{
     width: 50%;
@@ -845,6 +840,25 @@ header ul li a:hover::after{
     width: 1.5vw;
     color: #151515;
 }
+
+
+
+
+/* THE CONTACT PAGE  */
+
+.contact-hero{
+    height: 70vh;
+    width: 100%;
+    background-image:  url("../images/10.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+   
+}
+
+
+
 
 
 
