@@ -1331,7 +1331,9 @@ header ul li a:hover::after{
     }
 
     .message-download-svg{
-        width: 4vw;
+        width: 5vw;
+        color: #151515;
+        margin: 0rem 0rem .2rem 1rem;
     
     }
 }
