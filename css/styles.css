@@ -14,6 +14,7 @@ milk-white: #f2f4cd /60%/
     background-color: #FFFFFF !important;
     color:  #FFFFFF;
     font-family: "cormorant";
+    overflow-x: hidden;
  
 }
 
