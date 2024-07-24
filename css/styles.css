@@ -1010,7 +1010,7 @@ header ul li a:hover::after{
     .message-download-svg{
         width: 2.5vw;
         color: #151515;
-        margin: 0rem 1rem;
+        margin: 0rem 0rem .5rem 1rem;
     
     }
 
