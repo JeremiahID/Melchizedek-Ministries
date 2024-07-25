@@ -855,12 +855,33 @@ header ul li a:hover::after{
 .contact-h{
     position: absolute;
     top: 30%;
-    left: 45% ;
+    left: 42% ;
     color: #f2f4cd;
-    font-size: ;
-    /* text-transform: capitalize; */
 }
 
+
+.contact-overlay{
+    width: 80%;
+    height: 30vh;
+    background-color:#FFFFFF;
+    position: relative;
+    top: -20%;
+    left: 10%;
+}
+
+.contact-map{
+    width: 100%;
+    height: 90vh;
+    align-items: flex-end;
+    background-color: #15151515;
+}
+
+.map{
+    width: 80%;
+    height: 60vh;
+    background-color: #151515;
+    
+}
 
 
 
@@ -1302,7 +1323,7 @@ header ul li a:hover::after{
         background-color:rgb(35, 35, 196);
     }
 
-    .img-fit{
+    .img-fit-e{
         display: none;
     }
 
