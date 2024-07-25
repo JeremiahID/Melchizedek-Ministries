@@ -849,14 +849,17 @@ header ul li a:hover::after{
 .contact-hero{
     height: 70vh;
     width: 100%;
-    background-image:  url("../images/10.jpg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
- 
-   
+    position: relative;
 }
 
+.contact-h{
+    position: absolute;
+    top: 30%;
+    left: 45% ;
+    color: #f2f4cd;
+    font-size: ;
+    /* text-transform: capitalize; */
+}
 
 
 
@@ -1204,6 +1207,9 @@ header ul li a:hover::after{
         margin: 0;
     }
 
+
+
+
     /* PASTORS QUOTE */
     .pastors-quote{
         height: 210vh;
@@ -1218,7 +1224,6 @@ header ul li a:hover::after{
         margin: 0;
         font-size: 2rem;
     }
-
 
     .quotes-wrapper{
         width: 100%;
@@ -1270,8 +1275,11 @@ header ul li a:hover::after{
         font-size: .8rem;
     }
 
-    /* Events section */
 
+
+
+
+    /* Events section */
     .events-c{
         width: 90%;
     }
