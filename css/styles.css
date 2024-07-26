@@ -1023,6 +1023,11 @@ header ul li a:hover::after{
     
     }
 
+    .live{
+        padding: .5rem 1rem;
+        font-size: 1rem;
+    }
+
 
     /* SERVICES */
 
@@ -1570,7 +1575,7 @@ header ul li a:hover::after{
 
     /* CONTACT PAGE */
     .contact-h{
-        left: 29% ;
+        left: 22% ;
     }
     
 }
