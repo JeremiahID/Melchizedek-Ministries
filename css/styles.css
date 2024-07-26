@@ -978,7 +978,7 @@ header ul li a:hover::after{
         top: 0px;
         left: 0;
         width: 20%;
-        background-color: #A68B54;
+        background-color: #a68b5479;
         align-items: flex-start;
         border-right: 3px solid #FFFFFF;
         border-bottom: 3px solid #FFFFFF;
@@ -1310,6 +1310,10 @@ header ul li a:hover::after{
         width: 6vw;
     }
     
+    .live{
+        padding: .3rem .7rem;
+    }
+
     
 
     /* SERVICES */
@@ -1505,10 +1509,16 @@ header ul li a:hover::after{
 
 
 }
+
  /* small view */
 @media screen and (max-width: 375px) {
 
+    /* HEADER */
+    .live{
+        padding: .2rem .5rem;
+    }
 
+    /* EVENT PAGE */
     .event-name{
         width: 50%;
 
@@ -1548,6 +1558,7 @@ header ul li a:hover::after{
         left: 29% ;
     }
 }
+
  /* smaller view */
 @media screen and (max-width: 325px) {
     #about{
