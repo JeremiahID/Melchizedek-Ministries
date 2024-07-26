@@ -912,12 +912,6 @@ header ul li a:hover::after{
 
 }
 
-
-
-
-
-
-
 .span{
     grid-column: span 1;
 }
@@ -932,8 +926,12 @@ header ul li a:hover::after{
 .map{
     width: 80%;
     height: 60vh;
-    background-color: #151515;
     
+}
+
+.melc-map{
+    width: 100%;
+    height: inherit;
 }
 
 .messsage-container{
@@ -978,7 +976,7 @@ header ul li a:hover::after{
         top: 0px;
         left: 0;
         width: 20%;
-        background-color: #a68b5479;
+        background-color: #a68b549a;
         align-items: flex-start;
         border-right: 3px solid #FFFFFF;
         border-bottom: 3px solid #FFFFFF;
@@ -986,6 +984,7 @@ header ul li a:hover::after{
         margin: 0rem;
         padding: 0rem 1rem;
         z-index: 2;
+        backdrop-filter: blur(5px);
     }
 
 
