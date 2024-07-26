@@ -855,7 +855,7 @@ header ul li a:hover::after{
 .contact-hero{
     height: 70vh;
     width: 100%;
-    background-color: #151515;
+    background-color: #151515d2;
     position: relative;
 }
 
