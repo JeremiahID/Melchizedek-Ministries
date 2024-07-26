@@ -876,7 +876,47 @@ header ul li a:hover::after{
     left: 10%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+   
 }
+
+
+.overlay-p{
+    font-size: 1rem;
+    font-family: candara;
+    font-weight: bolder;
+    color:#1515154b;
+    line-height: 3rem;
+}
+
+.overlay-h{
+    font-size: 1.8rem;
+    font-family: candara;
+    color:#151515c0;
+}
+
+.call, .email, .visit{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-t, .email-t, .location-t{
+   flex-direction: column;
+}
+
+.b-left{
+    border-right: 1px solid #1515154b;
+}
+.contact-overlay-svg{
+    width: 4vw;
+    color: #1515154b;
+
+}
+
+
+
+
+
+
 
 .span{
     grid-column: span 1;
@@ -1182,6 +1222,20 @@ header ul li a:hover::after{
         grid-template-rows: repeat(3, 1fr);
     }
 
+        
+    .b-left{
+        border-right: 0px solid #1515154b;
+    }
+
+    .b-bottom{
+        border-bottom: 1px solid #1515154b;
+    }
+    .contact-overlay-svg{
+        width: 6vw;
+        color: #1515154b;
+
+    }
+
     .contact-map{
         height: 145vh;
     }
@@ -1423,6 +1477,25 @@ header ul li a:hover::after{
     .event-svg{
         width: 5vw;
     }
+
+
+
+
+
+    /* CONTACT PAGE */
+
+    .contact-h{
+        left: 32% ;
+    }
+
+    .overlay-h{
+        font-size: 1.2rem;
+    }
+
+    .contact-overlay-svg{
+        width: 8vw;
+
+    }
     
 
 
@@ -1463,6 +1536,9 @@ header ul li a:hover::after{
         margin: 0rem 0rem .2rem 1rem;
     
     }
+
+
+    CONATCT
 }
  /* smaller view */
 @media screen and (max-width: 325px) {
