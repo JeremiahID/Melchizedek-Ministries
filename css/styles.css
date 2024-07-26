@@ -1538,7 +1538,10 @@ header ul li a:hover::after{
     }
 
 
-    CONATCT
+    /* CONTACT PAGE */
+    .contact-h{
+        left: 29% ;
+    }
 }
  /* smaller view */
 @media screen and (max-width: 325px) {
@@ -1546,6 +1549,8 @@ header ul li a:hover::after{
         min-height: 90vh;
     }
 
+
+    /* EVENT PAGE */
     .event-name{
         width: 50%;
 
@@ -1561,6 +1566,11 @@ header ul li a:hover::after{
 
     .event-svg{
         width: 5vw;
+    }
+
+    /* CONTACT PAGE */
+    .contact-h{
+        left: 29% ;
     }
     
 }
