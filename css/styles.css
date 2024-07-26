@@ -170,6 +170,8 @@ header ul li a:hover::after{
     height: 100vh !important;
 }
 
+
+
 .fluid-img {
     width: 110% !important;
     height: 100vh !important;
@@ -208,7 +210,7 @@ header ul li a:hover::after{
 }
 
 .img-carousel-3 {
-    background-image: url("../images/IMG_0200.jpg");
+    background-image: url("../images/contact-hero3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top ;
@@ -274,6 +276,10 @@ header ul li a:hover::after{
 .bg-orange {
     background-color: #f89406;
     background-color: #A68B54;
+}
+
+.bg-black-c{
+    background-color: #151515a9;
 }
 
 
@@ -348,7 +354,7 @@ header ul li a:hover::after{
 }
 
 .bg-brown-light{
-    background-color: #a68b546c;
+    background-color: #a68b5441;
 }  
 .index-2 {
     z-index: 2;
