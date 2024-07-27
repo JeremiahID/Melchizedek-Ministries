@@ -951,13 +951,34 @@ header ul li a:hover::after{
 }
 
 .line{
-    width: 35%;
+    width: 20%;
     height: inherit;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+.line-hr{
+    width: 70%;
+    height: .2vh;
+    background-color: #15151548;
+    
 }
 
 .send-message{
-    width: 65%;
+    width:80%;
     height: inherit;
+}
+
+.form-for-message{
+    width: 70%;
+    height: 80%;
+    background-color: #15151533;
+}
+
+.message-t{
+    padding-left: 2rem;
+    text-transform: capitalize;
+    font-family: candara light;
 }
 
 
@@ -1269,13 +1290,24 @@ header ul li a:hover::after{
     .line{
         width: 100%;
         height: 20%;
-        /* display: none; */
+        align-items: flex-end;
+        justify-content: flex-start;
+    
     }
     
     .send-message{
         width: 100%;
         height: 80%;
     }
+    
+    .line-hr{
+        width: 50%;
+        margin-bottom: 3rem;
+        height: .2vh;
+        background-color: #15151548;
+        
+    }
+    
     
 }
 
