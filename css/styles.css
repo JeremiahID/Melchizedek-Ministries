@@ -980,6 +980,10 @@ header ul li a:hover::after{
     font-family: candara light;
 }
 
+.fs-msg{
+    font-size: 3rem ;
+}
+
 .input{
     padding: .5rem 2rem;
 }
@@ -1371,6 +1375,9 @@ input{
         max-width: 35%;
         text-align: center;
     }
+    .fs-msg{
+        font-size: 2.5rem ;
+    }
     
     
 }
@@ -1611,10 +1618,13 @@ input{
     .mail-link{
         max-width: 65%;
     }
-    
-    .message-t{
-        font-size: 7rem !important;
+    .fs-msg{
+        font-size: 1.4rem ;
     }
+    
+
+
+    
 
 
 }
