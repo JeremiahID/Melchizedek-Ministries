@@ -1608,7 +1608,13 @@ input{
         width: 8vw;
 
     }
+    .mail-link{
+        max-width: 65%;
+    }
     
+    .message-t{
+        font-size: 7rem !important;
+    }
 
 
 }
