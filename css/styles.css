@@ -402,14 +402,14 @@ header ul li a:hover::after{
     font-size: 4rem;
     font-weight: 600;
     margin: 0;
-    color: #151515;
+    color: #151515d3;
     padding-top: 1rem;
     font-family: "cormorant";
 
 }
 
 .service-schedule-p{
-    color: #151515;
+    color: #866e3e;
     font-weight: 600;
     margin: 0;
     font-size: 1.1rem;
@@ -421,7 +421,7 @@ header ul li a:hover::after{
 .service-schedule{
     width: 100%;
     height: 20vh;
-    color: #866e3e;
+    color: #151515d3;
     flex-direction: column;
     display: grid;
     margin: 2rem 0rem;
@@ -448,7 +448,7 @@ header ul li a:hover::after{
 
 .span-one{
     grid-column: span 1;
-    border-right: 3px solid #A68B54;
+    border-right: 3px solid #15151591;
     padding-left: 2rem;
     flex-direction: column;
     align-items: flex-start;
@@ -469,7 +469,7 @@ header ul li a:hover::after{
 .pastors-quote{
     width: 100%;
     height: 120vh;
-    background-color:#866e3e;
+    background-color: #1515150a;
 }
 
 .quotes-head{
@@ -478,7 +478,7 @@ header ul li a:hover::after{
 }
 
 .quotes-h{
-    color: #FFFFFF;
+    color: #151515;
     margin: 0;
     font-size: 3rem;
     text-transform: capitalize;
@@ -725,7 +725,7 @@ header ul li a:hover::after{
 .events-hero{
     height: 10vh;
     width: 100%;
-    background-color:  #151515;;
+    background-color:  #1515150a;;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -733,7 +733,7 @@ header ul li a:hover::after{
 }
 
 .events-header{
-    color: #f2f4cd;
+    color: #866e3e;
     font-family:Calibri;
     text-transform: uppercase;
     font-size:3rem;
@@ -744,7 +744,7 @@ header ul li a:hover::after{
     height: 150vh;
     width: 100%;
     flex-direction: column;
-    background-color: #151515;
+    background-color: #1515150a;
 }
 
 .events-c{
@@ -752,6 +752,7 @@ header ul li a:hover::after{
     height: 40vh;
     background-color: #FFFFFF;
     margin: 1rem 0rem;
+    box-shadow: 2px 2px 1px 2px #A68B54;
 }
 
 .event-img{
