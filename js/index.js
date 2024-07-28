@@ -21,7 +21,7 @@ Hamburger.click(()=>{
 CloseHamburger.click(()=>{
 
     if(Navigation.css("display") === "block"){
-        
+
         Navigation.css("display", Navigation.delay(400).fadeOut("slow"));
       
     } else {
@@ -44,7 +44,6 @@ Email_Link.click(()=>{
         Address.val('');
         Email.val('');
         Message.val('');
-
     }
 })
 
