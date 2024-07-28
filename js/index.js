@@ -28,8 +28,11 @@ CloseHamburger.click(()=>{
 })
 
 Email_Link.click(()=>{
+    
     if(Name.val() === "" || PhoneNumber.val() === "" ||Address.val() === "" ||Email.val() === "" ||Message.val() === ""){
+
         Error_Message.text("fields cannot be empty").css("color", "red")
+
     }else{
         Error_Message.text("Thanks for reaching out..!").css("color", "green");
         Name.val('');
@@ -37,6 +40,7 @@ Email_Link.click(()=>{
         Address.val('');
         Email.val('');
         Message.val('');
+
     }
 })
 
