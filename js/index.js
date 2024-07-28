@@ -19,16 +19,20 @@ Hamburger.click(()=>{
 })
 
 CloseHamburger.click(()=>{
+
     if(Navigation.css("display") === "block"){
+        
         Navigation.css("display", Navigation.delay(400).fadeOut("slow"));
       
     } else {
+
         Navigation.css("display", "none");
+
     }
 })
 
 Email_Link.click(()=>{
-    
+
     if(Name.val() === "" || PhoneNumber.val() === "" ||Address.val() === "" ||Email.val() === "" ||Message.val() === ""){
 
         Error_Message.text("fields cannot be empty").css("color", "red")
