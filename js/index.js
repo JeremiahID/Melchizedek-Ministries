@@ -10,6 +10,8 @@ const Message = $('#Message');
 const Email_Link = $('.mail-link')
 const Error_Message = $('#errormsg')
 
+
+// The open hamburger icon
 Hamburger.click(()=>{
     if(Navigation.css("display") === "none"){
         Navigation.css("display", Navigation.delay(400).fadeIn("slow"))
@@ -18,6 +20,8 @@ Hamburger.click(()=>{
     }
 })
 
+
+// The close hamburger icon
 CloseHamburger.click(()=>{
 
     if(Navigation.css("display") === "block"){
@@ -49,6 +53,8 @@ Email_Link.click(()=>{
     }
 })
 
+
+// email validation 
 // Email_Link.click(()=>{
 //     if(Email.val().includes('@')){
 //         Error_Message.text("good")
