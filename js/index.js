@@ -2,6 +2,12 @@
 const Hamburger = $('#hamburger');
 const CloseHamburger = $('#close-hamburger');
 const Navigation = $('#navigations');
+const Name = $('#name');
+const PhoneNumber = $('#phonenumber');
+const Address = $('#address');
+const Email = $('#email');
+const Message = $('#Message');
+const Email_Link = $('.mail-link')
 
 Hamburger.click(()=>{
     if(Navigation.css("display") === "none"){
@@ -17,6 +23,14 @@ CloseHamburger.click(()=>{
       
     } else {
         Navigation.css("display", "none");
+    }
+})
+
+Email_Link.click(()=>{
+    if(Name.val() === "" || PhoneNumber.val() === "" ||Address.val() === "" ||Email.val() === "" ||Message.val() === ""){
+        Email_Link.css("color", "red")
+    }else{
+        Email_Link.css("color", "white")
     }
 })
 
