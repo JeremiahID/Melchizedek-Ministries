@@ -8,6 +8,7 @@ const Address = $('#address');
 const Email = $('#email');
 const Message = $('#Message');
 const Email_Link = $('.mail-link')
+const Error_Message = $('#errormsg')
 
 Hamburger.click(()=>{
     if(Navigation.css("display") === "none"){
@@ -28,11 +29,24 @@ CloseHamburger.click(()=>{
 
 Email_Link.click(()=>{
     if(Name.val() === "" || PhoneNumber.val() === "" ||Address.val() === "" ||Email.val() === "" ||Message.val() === ""){
-        Email_Link.css("color", "red")
+        Error_Message.text("fields cannot be empty").css("color", "red")
     }else{
-        Email_Link.css("color", "white")
+        Error_Message.text("Thanks for reaching out..!").css("color", "green");
+        Name.val('');
+        PhoneNumber.val('');
+        Address.val('');
+        Email.val('');
+        Message.val('');
     }
 })
+
+// Email_Link.click(()=>{
+//     if(Email.val().includes('@')){
+//         Error_Message.text("good")
+//     }else{
+//         Error_Message.text("invalid email addrres")
+//     }
+// })
 
 
 

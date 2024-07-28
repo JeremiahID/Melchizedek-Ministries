@@ -1018,6 +1018,11 @@ input{
     background-color:#866e3ed7;
 }
 
+#errormsg{
+    padding-left: 2rem;
+    text-transform: capitalize;
+}
+
 
 
 
@@ -1623,7 +1628,7 @@ input{
     }
     
 
-    
+
 
 }
 
