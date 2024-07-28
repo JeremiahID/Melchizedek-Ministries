@@ -1,4 +1,4 @@
-// storing the hamburger menu in a varibale using JQuery
+// storing the varibale using JQuery
 const Hamburger = $('#hamburger');
 const CloseHamburger = $('#close-hamburger');
 const Navigation = $('#navigations');
@@ -31,6 +31,8 @@ CloseHamburger.click(()=>{
     }
 })
 
+
+// validation for the input fields
 Email_Link.click(()=>{
 
     if(Name.val() === "" || PhoneNumber.val() === "" ||Address.val() === "" ||Email.val() === "" ||Message.val() === ""){
