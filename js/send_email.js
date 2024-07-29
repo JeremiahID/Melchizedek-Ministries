@@ -1,9 +1,10 @@
+require('dotenv').config();
 const nodemailer = require('nodemailer');
 const express = require('express');
 const bodyParser = require('body-parser');
 const app = express();
 const port = 3000;
-require('dotenv').config();
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
