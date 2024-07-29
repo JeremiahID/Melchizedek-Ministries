@@ -43,6 +43,10 @@ Email_Link.click(()=>{
 
         Error_Message.text("fields cannot be empty").css("color", "red")
 
+    }else if(!Email.val().includes('@')){
+
+        Error_Message.text("invalid email addrres")
+
     }else{
         Error_Message.text("Thanks for reaching out..!").css("color", "green");
         Name.val('');
@@ -61,7 +65,7 @@ Email_Link.click(()=>{
 //     }else{
 //         Error_Message.text("invalid email addrres")
 //     }
-// })
+
 
 
 
