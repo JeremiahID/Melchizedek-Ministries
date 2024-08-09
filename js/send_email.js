@@ -1,4 +1,4 @@
-
+// calling the nodemailer/express/bodyparser/port
 const nodemailer = require('nodemailer');
 const express = require('express');
 const bodyParser = require('body-parser');
