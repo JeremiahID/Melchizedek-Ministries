@@ -251,12 +251,6 @@ header ul li a:hover::after{
 }
   
 
-.dropdown-menu[data-bs-popper] {
-    top: 100%;
-    left: 0;
-    margin-top: 0.5rem;
-}
-
 .vh-75 {
     min-height: 75vh;
 }
@@ -350,7 +344,7 @@ header ul li a:hover::after{
 }
 
 .bg-brown-light{
-    background-color: #a68b5441;
+    background-color: #00000041;
 }  
 .index-2 {
     z-index: 2;
